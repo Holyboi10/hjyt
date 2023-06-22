@@ -536,10 +536,27 @@ table{
         /* border: 1px solid red; */
     }
     .foot{
+        /* border: 1px solid blue; */
         margin-top: 100px;
     }
     .foot h1{
-        font-size: 1.1rem;
+        font-size: 1rem;
+    }
+    #shake{
+        /* border: 1px solid red; */
+        margin-bottom: -50px;
+    }
+    .about{
+        /* border: 1px solid green; */
+        font-size: 0.8rem;
+    }
+    .bgcolor-change{
+        /* border: 1px solid blue; */
+        margin-top: 60px;
+    }
+    .Hero{
+        /* border: 1px solid gold; */
+        height: 90vh;
     }
     .Lhero{
         /* border: 1px solid red; */
