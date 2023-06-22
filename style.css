@@ -16,6 +16,18 @@ body{
     top: 0;
     background-color: white;
 }
+.navbutton{
+    /* border: 1px solid red; */
+    margin-bottom: 0;
+    text-align: center;
+}
+.navbutton button{
+    width: 70px;
+    height: 25px;
+    background-color: black;
+    color: white;
+    border: none;
+}
 .Navbar{
     width: 95%;
     margin: auto;
