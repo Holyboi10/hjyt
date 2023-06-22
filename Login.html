@@ -34,14 +34,14 @@
             <input type="radio" name="" id="">
             <label for="">Sort code and account number</label> <br><br>
             <label for="">Last name</label><br> <br>
-            <input type="text" class="cont"><br> <br>
+            <input type="text" class="cont" id="userName"><br> <br>
             <label for="">Membership number</label><br> <br>
-            <input type="text" class="cont"><br> <br>
+            <input type="number" class="cont" id="Pass" required><br> <br>
             <a href="">Dont know your membership number?</a> <br> <br>
 
             <input type="checkbox" name="" id=""><br>
             <label for="">Remember my last name and login method (optional). <span style="font-size: 0.7rem;"><br> Don't tick the box if you're using a public or shared device</span></label><br><br><br>
-            <a href="Homepage.html" style="color: white;text-decoration: none;"><button class="boton">Continue</button></a>
+            <a href="Homepage.html" style="color: white;text-decoration: none;"><button onclick="Username()" class="boton">Continue</button></a>
             
         </div>
 
@@ -65,5 +65,14 @@
         </div>
 
     </div>
+
+    <script>
+        var User = document.getElementById("userName").value 
+        var Password = Number(document.getElementById("Pass").value ) 
+        function Username(){
+          
+
+        }
+    </script>
 </body>
 </html>

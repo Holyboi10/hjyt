@@ -325,7 +325,7 @@ table{
     color: #0076b6;
 }
 .foot{
-    /* border: 1px solid green; */
+    border: 1px solid green;
     height: 70vh;
 
 }
@@ -532,8 +532,15 @@ table{
 
 @media(min-width:320px) and (max-width:390px ){
     .classDiv h3{
-        font-size: 1.1rem;
+        font-size: 1rem;
         /* border: 1px solid red; */
+    }
+    .foot{
+        margin-top: 100px;
+    }
+    .Lhero{
+        /* border: 1px solid red; */
+        margin-top: -30px;
     }
 }
 @media(max-width:789px){
