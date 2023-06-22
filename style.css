@@ -325,7 +325,7 @@ table{
     color: #0076b6;
 }
 .foot{
-    border: 1px solid green;
+    /* border: 1px solid green; */
     height: 70vh;
 
 }
@@ -537,6 +537,9 @@ table{
     }
     .foot{
         margin-top: 100px;
+    }
+    .foot h1{
+        font-size: 1.1rem;
     }
     .Lhero{
         /* border: 1px solid red; */
